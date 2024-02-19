@@ -1,0 +1,11 @@
+|table_schema|table_name       |column_name   |description                                                                                             |
+|------------|-----------------|--------------|--------------------------------------------------------------------------------------------------------|
+|public      |user_attributes  |client_id     |unique id of our clients                                                                                |
+|public      |user_attributes  |utm_campaign  |utm variable of marketing campaing for new clients - it is a some kind of place where we buy our clients|
+|public      |user_activity_log|client_id     |id of our clients                                                                                       |
+|public      |user_activity_log|hitdatetime   |timestamp when client make some action in our company ux                                                |
+|public      |user_activity_log|action        |action name what client done at hitdatetime moment                                                      |
+|public      |user_payment_log |client_id     |id of our clients                                                                                       |
+|public      |user_payment_log |hitdatetime   |timestamp when client makes some action                                                                 |
+|public      |user_payment_log |action        |action in payment flow when user want to give us money                                                  |
+|public      |user_payment_log |payment_amount|sum of payments from user when they make action make-payment                                            |
